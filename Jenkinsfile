@@ -10,7 +10,7 @@ pipeline{
             {
                 steps
                  {
-                    git 'https://github.com/sivatejakavitapu/spring-petclinic-new.git'
+                    git branch: 'main', url: 'https://github.com/sivatejakavitapu/spring-petclinic-new.git'
                 }
 
             }
